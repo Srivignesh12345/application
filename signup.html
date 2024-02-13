@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding-top: 40px; }
+        .form-signup { width: 100%; max-width: 400px; padding: 15px; margin: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="form-signup" action="prank.html" method="get">
+            <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
+            <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+            <div>
+                <input type="radio" name="sex" value="male" required> Male
+                <input type="radio" name="sex" value="female" required> Female
+            </div>
+            <input type="text" id="inputRole" class="form-control" placeholder="Role" required>
+            <input type="tel" id="inputMobileNo" class="form-control" placeholder="Mobile No" required>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password Confirmation" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
